@@ -18,8 +18,8 @@ import random
 import itertools
 #from memory_profiler import profile
 
-# githubから最新のversonを持ってくる必要がある。
-# 実験やり直しを回避するためにこの関数だけコピーした。
+# We need to download the leatest version of POT.
+# To avoid this, we copy the function.
 #from ot.sliced import get_random_projections
 #from random_projections import get_random_projections
 from .random_projections import get_random_projections 
