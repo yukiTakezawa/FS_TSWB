@@ -1,7 +1,6 @@
 # FS-TSWB
 
-This is the demo code for the Fixed-Support Tree-sliced Wasserstein Barycenter.
-The sample code is contained in examples.ipynb.
+This is the demo code for the Fixed-Support Tree-Sliced Wasserstein Barycenter.
 
 ## Requirements
 - Python (3.7.4)
@@ -15,3 +14,17 @@ The sample code is contained in examples.ipynb.
 - gensim (3.8.0)
 - nltk (3.4.5)
 - tqdm
+
+## Quick Start
+The sample code is contained in examples.ipynb.
+
+### Details Experiments
+You can reproduce the experimental results by running the following commands.
+```
+mkdir exp
+bash mnist_time_support.sh
+bash mnist_time_sample.sh
+bash mnist_memory_support.sh
+bash mnist_memory_sample.sh
+```
+`mnist_memory_support.sh` and `mnist_memory_sample.sh` is only available on Linux.

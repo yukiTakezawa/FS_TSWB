@@ -1,7 +1,7 @@
 import sys
 sys.path.append("../")
 import unittest
-from slicing_chain import *
+from src.slicing_chain import *
 from numpy.testing import assert_array_equal, assert_almost_equal
 import ot
 

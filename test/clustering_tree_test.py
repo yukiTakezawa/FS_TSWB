@@ -1,7 +1,7 @@
 import sys
 sys.path.append("../")
 import unittest
-from clustering_tree import *
+from src.clustering_tree import *
 from numpy.testing import assert_array_equal
 
 
