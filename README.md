@@ -1,6 +1,6 @@
 # FS-TSWB
 
-This is the demo code for the Fixed-Support Tree-Sliced Wasserstein Barycenter.
+This is the demo code for the [Fixed-Support Tree-Sliced Wasserstein Barycenter](https://arxiv.org/abs/2109.03431).
 
 ## Requirements
 - Python (3.7.4)
@@ -28,3 +28,13 @@ bash mnist_memory_support.sh
 bash mnist_memory_sample.sh
 ```
 `mnist_memory_support.sh` and `mnist_memory_sample.sh` is only available on Linux.
+
+## Citation
+```
+@inproceedings{takezawa2022fixed,
+    title = {Fixed Support Tree-Sliced Wasserstein Barycenter},
+    author = {Yuki Takezawa and Ryoma Sato and Zornitsa Kozareva and Sujith Ravi and Makoto Yamada},
+    booktitle = {International Conference on Artificial Intelligence and Statistics},
+    year = {2022}
+}
+```
